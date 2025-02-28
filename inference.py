@@ -1,3 +1,5 @@
+import os
+import argparse
 from seg import U2NETP
 from GeoTr import GeoTr
 from IllTr import IllTr
@@ -6,15 +8,9 @@ from inference_ill import rec_ill
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import skimage.io as io
 import numpy as np
 import cv2
-import glob
-import os
 from PIL import Image
-import argparse
-import warnings
-warnings.filterwarnings('ignore')
 
 
 class GeoTr_Seg(nn.Module):
