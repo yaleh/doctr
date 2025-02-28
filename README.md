@@ -32,6 +32,23 @@ Any questions or discussions are welcomed!
 
 ![image](https://user-images.githubusercontent.com/50725551/232953325-2a6782ab-ac49-4f7b-83b7-eae850ccd5dd.png)
 
+## Testing
+
+To run the test suite, use the following command:
+
+```bash
+poetry run python -m unittest discover -s tests -p "test_*.py" -v
+```
+
+This will:
+1. Discover all test files in the `tests` directory
+2. Run both package import tests and inference functionality tests
+3. Provide verbose output showing which tests are running
+
+The test suite includes:
+- Package import verification
+- Inference functionality testing
+- Temporary file creation and cleanup
 
 ## Training
 DocTr consists of two main components: a geometric unwarping transformer (GeoTr) and an illumination correction transformer (IllTr).
