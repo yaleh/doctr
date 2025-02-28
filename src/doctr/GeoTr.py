@@ -1,5 +1,5 @@
-from extractor import BasicEncoder
-from position_encoding import build_position_encoding
+from .extractor import BasicEncoder
+from .position_encoding import build_position_encoding
 
 import argparse
 import numpy as np

@@ -4,6 +4,8 @@ version = "0.1.0"
 description = "Document Image Transformer for Geometric Unwarping and Illumination Correction"
 authors = ["Hao Feng <haof@mail.ustc.edu.cn>"]
 license = "MIT"
+readme = "README.md"
+packages = [{include = "doctr", from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"

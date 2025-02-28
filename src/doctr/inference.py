@@ -1,9 +1,9 @@
 import os
 import argparse
-from seg import U2NETP
-from GeoTr import GeoTr
-from IllTr import IllTr
-from inference_ill import rec_ill
+from .seg import U2NETP
+from .GeoTr import GeoTr
+from .IllTr import IllTr
+from .inference_ill import rec_ill
 
 import torch
 import torch.nn as nn
