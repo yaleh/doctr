@@ -12,7 +12,6 @@ import numpy as np
 import cv2
 from PIL import Image
 
-
 class GeoTr_Seg(nn.Module):
     def __init__(self):
         super(GeoTr_Seg, self).__init__()

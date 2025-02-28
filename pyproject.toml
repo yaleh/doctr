@@ -5,7 +5,7 @@ description = "Document Image Transformer for Geometric Unwarping and Illuminati
 authors = ["Hao Feng <haof@mail.ustc.edu.cn>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "doctr", from = "src"}]
+packages = [{include = "doctr"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
